@@ -1,0 +1,31 @@
+{
+  "name": "photography-bio",
+  "version": "1.0.0",
+  "description": "This is my Photography Website Portfolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techjess/photowebsite.git"
+  },
+  "keywords": [
+    "Photography",
+    "Web",
+    "Design",
+    "Portraits",
+    "Urban",
+    "Photography"
+  ],
+  "author": "Jesse Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/techjess/photowebsite/issues"
+  },
+  "homepage": "https://github.com/techjess/photowebsite#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}

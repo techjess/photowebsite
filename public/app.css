@@ -123,12 +123,18 @@ h1{
 }
 
 #body-container img{
+	width: 100%;
+	
+	
+}
+.images{
 	width: 30%;
 	float: left;
 	margin:1.66%;
 	box-shadow:  8px 8px 8px 8px #888888;
 	
 }
+
 
 
 

@@ -39,15 +39,15 @@ eventsBtn.addEventListener("click", function(){
 //functions that will set the correct div to display when button is clicked on navbar
 //h1 will show the button as its text
 function homePage(){
-	h1.textContent = "Welcome to my Portfolio";
+	h1.textContent = "Home";
 	homeDiv.style.display = "block";
 	urbanDiv.style.display = "none";
 	portraitsDiv.style.display = "none";
 	weddingDiv.style.display = "none";
 	eventDiv.style.display = "none";
 	homeDiv.classList.add("body-fade");
-	
-}
+
+}  
 function portraits(){
 	h1.textContent = "Portraits";
 	homeDiv.style.display = "none";

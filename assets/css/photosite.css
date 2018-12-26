@@ -1,5 +1,5 @@
-html { 
-  background: url(images/texbg.jpg) no-repeat center center fixed; 
+html {
+  background: url(images/bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -40,7 +40,7 @@ padding: 0;
 
 #links{
 	float: right;
-	list-style-type: none;	
+	list-style-type: none;
 }
 
 #links li{
@@ -60,7 +60,9 @@ padding: 0;
 }
 
 #links li a:hover{
-	background: #1F1F1F;
+	background: ada8a8;
+  border: .5px solid white;
+  border-radius: 5px;
 }
 #links li a:active{
 	color: black;
@@ -69,11 +71,28 @@ padding: 0;
 
 h1{
 	width: 100%;
-	text-align: center; 
+	text-align: center;
 	margin-top: 90px;
 	color: white;
+  font-size: 50px;
 	font-weight: normal;
 	padding-top: 25px;
+}
+#main-header{
+  font-size: 75px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding-top: 60px;
+    margin-top: 100px;
+    margin-bottom: 0;
+
+}
+#sub-header{
+  font-size: 30px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    padding-top: 30px;
+    margin-bottom: 0;
 }
 #h1{
 	font-size: 1.0em;
@@ -90,10 +109,8 @@ h1{
 
 #header-icon{
 	height: 100%;
-	
-	text-align: center;
-	
 
+	text-align: center;
 
 }
 
@@ -101,11 +118,11 @@ h1{
 	width: 80%;
 	height: 100%;
 	margin: 0px auto;
-	border-left: 1px solid white;
-	border-top: 1px solid white;
+	/* border-left: 1px solid white; */
+	/* border-top: 1px solid white; */
 	padding-left: 10px;
 	padding-right: 10px;
-	
+
 	color: white;
 	text-align: center;
 }
@@ -124,15 +141,15 @@ h1{
 
 #body-container img{
 	width: 30%;
+  height: 35%;
 	float: left;
 	margin:1.66%;
-	box-shadow:  8px 8px 8px 8px #888888;
-	
+  transition: 1s;
+	/* box-shadow:  8px 8px 8px 8px #888888; */
+
 }
 
-
-
-
-
-
-
+#body-container img:hover{
+  filter: grayscale(100%);
+  transform: scale(1.1);
+}

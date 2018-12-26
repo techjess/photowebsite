@@ -1,23 +1,26 @@
 <html>
 <head>
-	<title>Jesus Alejandro Photo and Media</title>
+	<title>jAlejandro.Photography</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/photosite.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-
+	<link rel="stylesheet" href="assets/css/lightbox.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Cardo|Cinzel|Cormorant+Garamond|Josefin+Sans|Nanum+Myeongjo|PT+Sans+Caption|Playfair+Display+SC" rel="stylesheet">
-
+	li
 	<script type="text/javascript" src="assets/js/lib/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="assets/js/lightbox-plus-jquery.min.js">
+
+	</script>
 
 
 </head>
 <body>
-	
+
 
 		<div id="div-container">
 			<nav>
 				<!-- header div will contain the name and photo from FA-->
 				<div id="header">
-					<p id="header-name">Jesus Alejandro Photography</p>
+					<p id="header-name">jAlejandro.Photography</p>
 				</div>
 
 				<!-- Navbar buttons -->
@@ -27,38 +30,31 @@
 					<li id="wedding-photography"><a href="#">Wedding Photography</a></li>
 					<li id="event-photography"><a href="#">Event Photography</a></li>
 					<li id="urban-photography"><a href="#">Urban Photography</a></li>
-					
+
 				</ul>
 			</nav>
 		</div>
-	
-	<h1><span id="header-icon"><i class="fas fa-camera"></i></span><span id="h1"> Welcome </span></h1>
-	
+
+	<h1><span id="h1">Welcome</span></h1>
+
 
 	<!-- the body will have seperate divs that contain each corresponding photos to the navbar buttons. Pnce clicked the js will set the correct div to be displayed. Layout will be the same.-->
 	<div id="body-container">
 
 		<!--The home page will have my bio and what i choose to write as an intro-->
 		<div class="show home">
-			<p> Welcome to Jesus Alejandro Photography. This portfolio page is designed to showcase the best work possible. We have experience in Weddings, Quinceneras, Portraits, and all sorts of others. My goal is to provide the best experience possible for you and your family while delivering Professional-grade stock. </p>
+			<h1 id="main-header">jAlejandro Photography</h1>
+			<h2 id="sub-header">Under Construction. We will be back up soon! Thank you for your patience.  </h2>
 		</div>
 
 		<!--Street and Urban Photography-->
 		<div class="show urban">
 			<!-- Massimo Margagnoni -->
-			<img src="assets/jpegs/urban/urban001.jpg">
-			<img src="assets/jpegs/urban/urban002.jpg">
-			<img src="assets/jpegs/urban/urban003.jpg">
+			<img src="public/jpegs/urban/urban001.jpg">
+			<img src="public/jpegs/urban/urban002.jpg">
+			<img src="public/jpegs/urban/urban003.jpg">
 
-			<!-- Giuseppe Milo -->
-			<img src="http://c1.staticflickr.com/9/8788/17367410309_78abb9e5b6_b.jpg">
-			<img src="http://c2.staticflickr.com/6/5814/20700286354_762c19bd3b_b.jpg">
-			<img src="http://c2.staticflickr.com/6/5647/21137202535_404bf25729_b.jpg">
 
-			<!-- GörlitzPhotography -->
-			<img src="http://c2.staticflickr.com/6/5588/14991687545_5c8e1a2e86_b.jpg">
-			<img src="http://c2.staticflickr.com/4/3888/14878097108_5997041006_b.jpg">
-			<img src="http://c2.staticflickr.com/8/7579/15482110477_0b0e9e5421_b.jpg">
 
 			<!-- All Photos Licensed Under Creative Commons 2.0 -->
 			<!-- https://creativecommons.org/licenses/by/2.0/legalcode  -->
@@ -66,19 +62,23 @@
 		<!-- portraits that i have -->
 		<div class="show portraits">
 			<!-- Massimo Margagnoni -->
-			<img src="assets/jpegs/portraits/portrait001.jpg">
-			<img src="assets/jpegs/portraits/portrait002.jpg">
-			<img src="assets/jpegs/portraits/portrait003.jpg">
+			<a href="public/jpegs/portraits/j4.jpg" data-lightbox="mygallery"><img src="public/jpegs/portraits/j4.jpg"></a>
+			<img src="public/jpegs/portraits/j5.jpg">
+			<img src="public/jpegs/portraits/j6.jpg">
 
-			<!-- Giuseppe Milo -->
-			<img src="assets/jpegs/portraits/portrait004.jpg">
-			<img src="http://c2.staticflickr.com/6/5814/20700286354_762c19bd3b_b.jpg">
-			<img src="http://c2.staticflickr.com/6/5647/21137202535_404bf25729_b.jpg">
+			<img src="public/jpegs/portraits/j7.jpg">
+			<img src="public/jpegs/portraits/j8.jpg">
+			<img src="public/jpegs/portraits/j9.jpg">
 
-			<!-- GörlitzPhotography -->
-			<img src="http://c2.staticflickr.com/6/5588/14991687545_5c8e1a2e86_b.jpg">
-			<img src="http://c2.staticflickr.com/4/3888/14878097108_5997041006_b.jpg">
-			<img src="http://c2.staticflickr.com/8/7579/15482110477_0b0e9e5421_b.jpg">
+			<img src="public/jpegs/portraits/j10.jpg">
+			<img src="public/jpegs/portraits/j11.jpg">
+			<img src="public/jpegs/portraits/j12.jpg">
+
+			<img src="public/jpegs/portraits/j1.jpg">
+			<img src="public/jpegs/portraits/j2.jpg">
+
+
+
 
 			<!-- All Photos Licensed Under Creative Commons 2.0 -->
 			<!-- https://creativecommons.org/licenses/by/2.0/legalcode  -->
@@ -86,19 +86,7 @@
 		<!-- Event photogrpahy that i have done-->
 		<div class="show event">
 			<!-- Massimo Margagnoni -->
-			<img src="assets/jpegs/event/event001.jpg">
-			<img src="http://c2.staticflickr.com/8/7218/7209301894_c99d3a33c2_h.jpg">
-			<img src="http://c2.staticflickr.com/8/7231/6947093326_df216540ff_b.jpg">
-
-			<!-- Giuseppe Milo -->
-			<img src="http://c1.staticflickr.com/9/8788/17367410309_78abb9e5b6_b.jpg">
-			<img src="http://c2.staticflickr.com/6/5814/20700286354_762c19bd3b_b.jpg">
-			<img src="http://c2.staticflickr.com/6/5647/21137202535_404bf25729_b.jpg">
-
-			<!-- GörlitzPhotography -->
-			<img src="http://c2.staticflickr.com/6/5588/14991687545_5c8e1a2e86_b.jpg">
-			<img src="http://c2.staticflickr.com/4/3888/14878097108_5997041006_b.jpg">
-			<img src="http://c2.staticflickr.com/8/7579/15482110477_0b0e9e5421_b.jpg">
+			<p>Event Photograpy coming soon!</p>
 
 			<!-- All Photos Licensed Under Creative Commons 2.0 -->
 			<!-- https://creativecommons.org/licenses/by/2.0/legalcode  -->
@@ -107,19 +95,7 @@
 		<!--Wedding phots that I haveor will do-->
 		<div class="show wedding">
 			<!-- Massimo Margagnoni -->
-			<img src="http://c1.staticflickr.com/9/8450/8026519634_f33f3724ea_b.jpg">
-			<img src="http://c2.staticflickr.com/8/7218/7209301894_c99d3a33c2_h.jpg">
-			<img src="http://c2.staticflickr.com/8/7231/6947093326_df216540ff_b.jpg">
-
-			<!-- Giuseppe Milo -->
-			<img src="http://c1.staticflickr.com/9/8788/17367410309_78abb9e5b6_b.jpg">
-			<img src="http://c2.staticflickr.com/6/5814/20700286354_762c19bd3b_b.jpg">
-			<img src="http://c2.staticflickr.com/6/5647/21137202535_404bf25729_b.jpg">
-
-			<!-- GörlitzPhotography -->
-			<img src="http://c2.staticflickr.com/6/5588/14991687545_5c8e1a2e86_b.jpg">
-			<img src="http://c2.staticflickr.com/4/3888/14878097108_5997041006_b.jpg">
-			<img src="http://c2.staticflickr.com/8/7579/15482110477_0b0e9e5421_b.jpg">
+			<p>Wedding Portfolio coming soon!</p>
 
 			<!-- All Photos Licensed Under Creative Commons 2.0 -->
 			<!-- https://creativecommons.org/licenses/by/2.0/legalcode  -->

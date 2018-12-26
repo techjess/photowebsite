@@ -48,7 +48,7 @@
 // 	weddingDiv.style.display = "none";
 // 	eventDiv.style.display = "none";
 // 	homeDiv.classList.add("body-fade");
-	
+
 // }
 // function portraits(){
 // 	h1.textContent = "Portraits";
@@ -112,33 +112,33 @@ $("#wedding-photography").on("click", function(){
 
 
 function homePage(){
-	$("#h1").text("Welcome to My Portfolio")
+	$("#h1").text("Welcome")
 	$(".home").show();
 	$(".urban").hide();
 	$(".portraits").hide();
 	$(".wedding").hide();
 	$(".event").hide();
-	
-	
+
+
 };
 function urban(){
 	$("#h1").text("Urban Photography");
 	$(".home").hide();
-	$(".urban").show(1000);
+	$(".urban").show();
 	$(".portraits").hide();
 	$(".wedding").hide();
 	$(".event").hide();
-	
+
 }
 
 function portraits(){
 	$("#h1").text("Portraits");
 	$(".home").hide();
 	$(".urban").hide();
-	$(".portraits").show(1000);
+	$(".portraits").show();
 	$(".wedding").hide();
 	$(".event").hide();
-	
+
 
 }
 
@@ -162,31 +162,3 @@ function event(){
 	$(".event").show(1000);
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
